@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+:root{
+	--color-negro:#000;
+	--color-texto:#212529;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #eee;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+#hero h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+}
+#hero h1{
+	font-size: 7.5em;
+	font-weight: 800;
+}
+#hero h3{
+	font-size: 24px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+#hero h1, hero h4, hero h3{
+	color: #FFFFFF;
+}
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #000000 !important;
+}
+
+#hero{
+	background-image: url("../img/cgc gorras/temp-1.png");
+	background-position: top center;
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.55);
+	padding: 22% 0;
+	height: 100vh;
+}
+.btn-light{
+	background-color: #F2E4C9;
+	
+}
+.navbar-costume{
+	
+	background-color: #000000;
+	color: #D8C6C6;
+}
+.navbar-costume a {
+	color: #D8C6C6;
+}
+
+.btnsearch{
+	color: #D8C6C6;
+	font-weight: 600;
+	border: solid 2px aqua !important;
+}
+.subtitulo{
+	color: var(--color-subtitulos);
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.titulo{
+	font-size: 33px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#section-1{
+	text-align: center;
+	padding-top: 200px;
+}
+#section-2{
+	text-align: center;
+	padding-top: 200px;
+}
+#cta-1{
+	background-color:#F2E4C9;
+}
+footer{
+	background-color: #000000;
+	padding: 30px 0;
+	color: #adadad;
+	text-align: center;
+}
